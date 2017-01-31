@@ -1,5 +1,5 @@
 /* ====================================
-File name: exerc_2_2.c (or cpp) Date: 2017-01-31
+File name: exerc_2_4.c (or cpp) Date: 2017-01-31
 Group Number: 5
 Members that contributed: Aseel Naji
 YU Jet Hua 
