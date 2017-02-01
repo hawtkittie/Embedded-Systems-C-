@@ -20,6 +20,10 @@ int main()
 	printf("Input second string\n");
 	gets(b);
  	
+ 	    if (a[0 || b[0]] == '\0') {
+    	printf("String not found!");
+    	return 0;
+	}
  	/* Using strcmp to compare each and every character in strings a and b 
  	   strcmp returns the integer 0 if they are identical
 	*/

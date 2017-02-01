@@ -12,6 +12,14 @@ Demonstration code: [<Ass code 1-4> <abc>]
 
 int nostrcmp (char [], char[]);
 
+//void testString () {
+//	if (a && b[0]= '\0')
+//	printf("Nothing was inputted\n");
+//	return 0;
+//	else
+//	return -1;
+//}
+
 int main()
 {
 	char a[100], b [100];
@@ -23,16 +31,24 @@ int main()
 	printf("Input the second string\n");
 	gets(b);
 	
-	/* nostrcmp functions as strcmp by checking if the characters are identical
+    if (a[0 || b[0]] == '\0') {
+    	printf("String not found!");
+    	return 0;
+	}
+    	
+		/* nostrcmp functions as strcmp by checking if the characters are identical
 		in the same positions of the strings
 	*/
+	
 	stringcheck = nostrcmp (a, b);
- 
+	
+	
 	if (stringcheck == 0)
       printf("Entered strings are equal\n");
 	else
       printf("Entered strings are not equal\n");
-      
+    
+    
     
 	return 0;
 	 }
