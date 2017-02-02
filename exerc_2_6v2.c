@@ -5,7 +5,7 @@ Date: 2017-01-30
         Members that contributed:
 Johan Johansson
 
-Demonstration code: [<Ass code 1-4> <abc>] Important , No code no bonus !
+Demonstration code: [31578] 
 ====================================== */
 #include <stdio.h>
 #define MAX 5

@@ -4,7 +4,7 @@ Group Number: 5
 Members that contributed: Aseel Naji
 YU Jet Hua 
 Johan Johansson
- * Demonstration code: [<Ass code 1-4> <abc>] 
+ * Demonstration code: [37825] 
 ====================================== */
 
 #include <stdio.h>
@@ -27,7 +27,7 @@ int main(int argc, char **argv)
         array[i] = rand() %100; //range to 100
     }
     
-	printf("The value of the label array (address) is: %d\n", pointer);
+	printf("The value of the label array (address) is: %p\n", pointer);
     printf("First integer in the array is: %d\n", array[0]);
     printf("The size of an integer (number of bytes) is: %d\n",sizeof(integerType));
     printf("The size of the whole array is : %d\n", sizeof(array));
