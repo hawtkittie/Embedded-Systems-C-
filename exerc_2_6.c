@@ -4,12 +4,9 @@ Date: 2017-01-30
         Group Number:
         Members that contributed:
 Johan Johansson
- Yu Jet Hua
-Aseel Naji
 
-Demonstration code: [31578]
+Demonstration code: [31578] 
 ====================================== */
-
 #include <stdio.h>
 #define MAX 5
 
@@ -39,6 +36,18 @@ int main() {
     }
 
     printf("\n");
+    input(queue,7,MAX);
+    for (int i = 0; i < MAX; ++i) {
+        printf("%i ",queue[i]);
+    }
+
+    printf("\n");
+    input(queue,8,MAX);
+    for (int i = 0; i < MAX; ++i) {
+        printf("%i ",queue[i]);
+    }
+
+    printf("\n");
     input(queue,5,MAX);
     for (int i = 0; i < MAX; ++i) {
         printf("%i ",queue[i]);
@@ -49,6 +58,12 @@ int main() {
         printf("%i ",queue[i]);
     }
 
+    printf("\n");
+
+    output(queue,MAX);
+    for (int i = 0; i < MAX; ++i) {
+        printf("%i ",queue[i]);
+    }
     printf("\n");
 
     output(queue,MAX);
@@ -69,6 +84,7 @@ int output(int list[], int max) {
             list[1] = list[2];
             list[2] = list[3];
             list[3] = list[4];
+            list[4] = -1;
                 }
 
     return ret;
